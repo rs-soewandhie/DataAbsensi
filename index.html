@@ -1,5 +1,115 @@
-<a href="https://script.google.com/macros/s/AKfycbwGNLsWj7OGDVbwyaS9GFqGI3PhdlB2bp6qbdOA8k0B_UhDQFI2VCozipJvctxDtNhg/exec" 
-   target="_blank" 
-   class="btn btn-primary">
-   Buka Aplikasi Penugasan
-</a>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aplikasi Penugasan - RSUD</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      margin: 0;
+      background: linear-gradient(135deg, #f5f8ff, #eef2f7);
+      color: #1e293b;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 1rem;
+    }
+
+    .container {
+      background: #fff;
+      max-width: 700px;
+      width: 100%;
+      border-radius: 1.5rem;
+      padding: 2.5rem;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+      text-align: center;
+      transition: all 0.3s ease;
+    }
+
+    .container:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: #0f172a;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      font-size: 1rem;
+      color: #475569;
+      margin-bottom: 2rem;
+    }
+
+    .btn {
+      display: inline-block;
+      background: linear-gradient(90deg, #2563eb, #3b82f6);
+      color: white;
+      padding: 0.9rem 2rem;
+      border-radius: 12px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+    }
+
+    .btn:hover {
+      background: linear-gradient(90deg, #1d4ed8, #2563eb);
+      box-shadow: 0 6px 16px rgba(37, 99, 235, 0.35);
+      transform: scale(1.03);
+    }
+
+    iframe {
+      width: 100%;
+      height: 700px;
+      border: none;
+      border-radius: 12px;
+      margin-top: 2rem;
+      display: none; /* disembunyikan karena GAS tidak bisa iframe */
+    }
+
+    .note {
+      font-size: 0.85rem;
+      color: #64748b;
+      margin-top: 1.5rem;
+    }
+
+    @media (max-width: 640px) {
+      .container {
+        padding: 1.8rem;
+      }
+      h1 {
+        font-size: 1.4rem;
+      }
+      .btn {
+        padding: 0.8rem 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🗂️ Aplikasi Penugasan Kegiatan</h1>
+    <p>Silakan buka aplikasi penugasan untuk melihat, menambah, atau memperbarui jadwal dan tanggung jawab kegiatan yang sedang berlangsung.</p>
+    
+    <a href="https://script.google.com/macros/s/AKfycbwGNLsWj7OGDVbwyaS9GFqGI3PhdlB2bp6qbdOA8k0B_UhDQFI2VCozipJvctxDtNhg/exec" 
+       target="_blank" 
+       class="btn">
+       🚀 Buka Aplikasi Penugasan
+    </a>
+
+    <p class="note">Aplikasi ini akan terbuka di tab baru untuk keamanan dan performa yang lebih baik.</p>
+  </div>
+</body>
+</html>
